@@ -1,0 +1,16 @@
+.test_bgimage {
+	background-image: url($file-img-path+"pelto.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 50vh;
+}
+
+.test_layerimage {
+	width: 50%;
+	height: 50vh;
+	&__image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
