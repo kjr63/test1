@@ -1,11 +1,14 @@
 //console.log(__dirname);
 const path = require('path');
 module.exports = {
-    entry: "./public_html/jsx/app.jsx",
+    entry: {
+		app: "./public_html/jsx/app.jsx",
+		blog: "./public_html/jsx/blog.jsx"
+	},
     mode: "development",
     output: {
         path: path.join(__dirname, 'public_html', 'js'),
-        filename: "bundle.js"
+        filename: "[name].js"
     },
     module: {
         rules: [{

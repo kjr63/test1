@@ -1,7 +1,7 @@
 import React from 'react';
-import {URL_BLOG} from './variables.jsx';
+import {URL_INDEX} from './variables.jsx';
 
-export default class MainApp extends React.Component {
+export default class BlogApp extends React.Component {
     constructor (props) {
         super(props);
     }
@@ -9,10 +9,9 @@ export default class MainApp extends React.Component {
     render () {
         return (
             <div className="mainroot">
-				Hello React MainApp
-				<div><a href={URL_BLOG} >Blogiin</a></div>
+				Hello React BlogApp
+				<div><a href={URL_INDEX} >Aloitussivulle</a></div>
             </div>
         );
     }
 }
-
