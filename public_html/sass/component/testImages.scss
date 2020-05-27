@@ -14,3 +14,26 @@
 		object-fit: cover;
 	}
 }
+
+.test_svgbg {
+	width: 50%;
+	height: 50vh;
+	background-color: $color-pri;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__svgel {
+		width: auto;
+		height: 100%;
+		border: 2px solid magenta;
+		&__circle {
+			cx: 50;
+			cy: 50;
+			r: 40;
+			stroke: red;
+			stroke-width: 4px;
+			fill: yellow;
+			object-fit: contain;
+		}
+	}
+}

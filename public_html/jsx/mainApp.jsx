@@ -15,6 +15,11 @@ export default class MainApp extends React.Component {
 				<div className="test_layerimage">
 					<img className="test_layerimage__image" src={URL_IMG+"pelto.jpg"} alt="pelto"/>
 				</div>
+				<div className="test_svgbg">
+					<svg className="test_svgbg__svgel" viewBox="0 0 100 100">
+						<circle className="test_svgbg__svgel__circle" />
+					</svg>				
+				</div>
             </div>
         );
     }
