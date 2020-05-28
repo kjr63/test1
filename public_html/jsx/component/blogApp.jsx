@@ -8,8 +8,9 @@ export default class BlogApp extends React.Component {
     render () {
         return (
             <div className="mainroot">
-				Hello React BlogApp
-				<div><a href="index.html" >Aloitussivulle</a></div>
+				<div>
+					<a href="index.html">Aloitussivulle</a>
+				</div>
             </div>
         );
     }
