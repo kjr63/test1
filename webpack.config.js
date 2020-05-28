@@ -2,8 +2,8 @@
 const path = require('path');
 module.exports = {
     entry: {
-		app: "./public_html/jsx/app.jsx",
-		blog: "./public_html/jsx/blog.jsx"
+		app: "./public_html/jsx/component/app.jsx",
+		blog: "./public_html/jsx/component/blog.jsx"
 	},
     mode: "development",
     output: {
@@ -21,5 +21,8 @@ module.exports = {
         //}
         ]
     },
-    devtool: "cheap-module-eval-source-map"
+    devtool: "cheap-module-eval-source-map",
+	devServer: {
+		contentBase: path.join(__dirname, 'public_html')
+	}
 }

@@ -1,5 +1,5 @@
 .test_bgimage {
-	background-image: url($file-img-path+"pelto.jpg");
+	background-image: url("../img/pelto.jpg");
 	background-size: cover;
 	width: 50%;
 	height: 50vh;
@@ -25,7 +25,7 @@
 	&__svgel {
 		width: auto;
 		height: 100%;
-		border: 2px solid magenta;
+		//border: 2px solid magenta;
 		&__circle {
 			cx: 50;
 			cy: 50;
@@ -33,7 +33,6 @@
 			stroke: red;
 			stroke-width: 4px;
 			fill: yellow;
-			object-fit: contain;
 		}
 	}
 }

@@ -25,7 +25,7 @@ body {
   background-color: white; }
 
 .test_bgimage {
-  background-image: url("file://C:/Users/risberg/Documents/opiskelu/projects/test1/public_html/img/pelto.jpg");
+  background-image: url("../img/pelto.jpg");
   background-size: cover;
   width: 50%;
   height: 50vh; }
@@ -47,13 +47,11 @@ body {
   align-items: center; }
   .test_svgbg__svgel {
     width: auto;
-    height: 100%;
-    border: 2px solid magenta; }
+    height: 100%; }
     .test_svgbg__svgel__circle {
       cx: 50;
       cy: 50;
       r: 40;
       stroke: red;
       stroke-width: 4px;
-      fill: yellow;
-      object-fit: contain; }
+      fill: yellow; }

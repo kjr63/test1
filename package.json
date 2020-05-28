@@ -6,7 +6,8 @@
   "scripts": {
     "compile:sass": "node-sass public_html/sass/main.scss public_html/css/style.css",
     "compile:sass:w": "node-sass public_html/sass/main.scss public_html/css/style.css -w",
-    "build": "webpack"
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
   },
   "author": "Kaj Risberg",
   "license": "ISC",
@@ -19,7 +20,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {}
 }
