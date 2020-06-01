@@ -1,6 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should return html-code 1`] = `
+exports[`pitäisi palauttaa html-koodin entsyymi testillä 1`] = `
+<div
+  className="mainroot"
+>
+  <div>
+    <a
+      href="index.html"
+    >
+      Aloitussivulle
+    </a>
+  </div>
+</div>
+`;
+
+exports[`should return html-code wit react test renderer 1`] = `
 <div
   className="mainroot"
 >
