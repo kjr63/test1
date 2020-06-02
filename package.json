@@ -14,8 +14,9 @@
 	"compress-css":"node-sass public_html/css/style-prefix.css public_html/css/style.css --output-style compressed",
 	"build-sass-prod":"npm-run-all compile-sass-prod concat-css prefix-css compress-css",
 	
-    "build-wp": "webpack",
+    "build-wp-dev": "webpack",
 	"watch-wp":"webpack -w",
+	"build-wp-prod":"webpack -p --env production",
 	
 	"start":"npm-run-all --parallel watch-sass watch-wp",
 	
